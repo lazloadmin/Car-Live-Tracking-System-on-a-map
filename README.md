@@ -1,8 +1,13 @@
-# Overview :
-This is a complete solution of live tracking system in this application three type of user 
-a> super admin 
-b> admin
-c> driver 
+this is an  GPS tracking system. This repository contains PHP-based back-end service. It supports 1k03 and gt06 GPS protocols and more than 2 models of GPS tracking devices. this system  can be used with any major MYSQL database system. It also provides easy to use REST API.
+
+Other parts of GPS solution include:
+
+GPS web app
+GPS  Manager Android app
+There is also a set of mobile apps that you can use for tracking mobile devices:
+
+GPS Driver Android app
+
 
 # Requirement : 
 1. Xampp 
