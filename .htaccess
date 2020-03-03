@@ -1,0 +1,37 @@
+<IfModule mod_rewrite.c>
+
+ Options +FollowSymLinks
+
+ RewriteEngine On
+
+
+
+ RewriteCond %{REQUEST_FILENAME} !-f
+
+ RewriteCond %{REQUEST_FILENAME} !-d
+
+ RewriteRule ^(.*)$ index.php?/$1 [L]
+
+</IfModule>
+
+
+
+<IfModule mod_php5.c>
+
+   php_value short_open_tag 1
+
+</IfModule>
+
+
+
+
+
+#RewriteEngine on
+
+#RewriteCond $1 !^(index\.php|resources|robots\.txt)
+
+#RewriteCond %{REQUEST_FILENAME} !-f
+
+#RewriteCond %{REQUEST_FILENAME} !-d
+
+#RewriteRule ^(.*)$ index.php/$1 [L,QSA]
