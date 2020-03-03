@@ -1,5 +1,5 @@
 # Overview :
-This is a GPS tracking system This repository contains PHP-based back-end service. It supports 1k03 and gt06 GPS protocols and more than 2 models of GPS tracking devices. this system  can be used with any major MYSQL database system. It also provides easy to use REST API.
+This is a GPS tracking system This repository contains PHP-based back-end service. It supports TK03 and GT06 GPS protocols and more than 2 models of GPS tracking devices. this system  can be used with any major MYSQL database system. It also provides easy to use REST API.
 
 Other parts of GPS solution include:
 
